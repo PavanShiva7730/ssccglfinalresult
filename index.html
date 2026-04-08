@@ -457,41 +457,6 @@
 <main>
 <div class="wrap">
 
-  <!-- HERO -->
-  <div class="hero">
-    <div class="hero-eye">Staff Selection Commission of India</div>
-    <h2>Combined Graduate Level <span>Examination 2025</span></h2>
-    <p>FRTA declared on 08 April 2026 &nbsp;·&nbsp; 15,118 candidates provisionally allocated across 57 posts</p>
-  </div>
-
-  <!-- STATS -->
-  <div class="stats-grid">
-    <div class="stat-card c1">
-      <div class="stat-icon">📋</div>
-      <div class="stat-label">Total Vacancies</div>
-      <div class="stat-value">15,118</div>
-      <div class="stat-sub">Across 57 posts</div>
-    </div>
-    <div class="stat-card c2">
-      <div class="stat-icon">👥</div>
-      <div class="stat-label">Candidates Recommended</div>
-      <div class="stat-value">15,118</div>
-      <div class="stat-sub">100% vacancies filled</div>
-    </div>
-    <div class="stat-card c3">
-      <div class="stat-icon">✅</div>
-      <div class="stat-label">Candidates Parsed</div>
-      <div class="stat-value">15,110</div>
-      <div class="stat-sub">From List-1 &amp; List-2</div>
-    </div>
-    <div class="stat-card c4">
-      <div class="stat-icon">🎯</div>
-      <div class="stat-label">UR Cutoff (Sec I+II)</div>
-      <div class="stat-value">117</div>
-      <div class="stat-sub">Sec-I: 54 &nbsp;+&nbsp; Sec-II: 63</div>
-    </div>
-  </div>
-
   <!-- SEARCH -->
   <div class="section-box">
     <div class="sec-head">
@@ -511,60 +476,6 @@
     <div class="result-card" id="resultCard"></div>
   </div>
 
-  <!-- CHARTS -->
-  <div class="charts-grid">
-    <div class="chart-box">
-      <div class="chart-title">📊 Top 10 Posts by Vacancy Count</div>
-      <div id="vacChart"></div>
-    </div>
-    <div class="chart-box">
-      <div class="chart-title">📈 UR Cut-off Comparison (Top Posts)</div>
-      <div id="cutChart"></div>
-    </div>
-  </div>
-
-  <!-- CUTOFF TABLE -->
-  <div class="section-box">
-    <div class="sec-head">
-      <div class="sec-icon si-b">📋</div>
-      Section I &amp; II Cut-off Marks
-    </div>
-    <div class="tab-row">
-      <button class="tab-btn on" onclick="showTab('s12',this)">Section I &amp; II</button>
-      <button class="tab-btn" onclick="showTab('ckt',this)">Section III (CKT)</button>
-      <button class="tab-btn" onclick="showTab('dest',this)">Section IV (DEST)</button>
-    </div>
-    <div class="tbl-wrap" id="ctContent"></div>
-  </div>
-
-  <!-- INFO GRID -->
-  <div class="info-grid">
-    <div class="info-card">
-      <h3>📅 Key Timeline</h3>
-      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">18 Dec 2025</div><div class="tl-desc">Tier-I Result Declared</div></div></div>
-      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">18–19 Jan 2026</div><div class="tl-desc">Tier-II Examination (CBT)</div></div></div>
-      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">03 Mar 2026</div><div class="tl-desc">Sliding Mechanism Notice Issued</div></div></div>
-      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">08 Apr 2026</div><div class="tl-desc">FRTA Result Declared ✅</div></div></div>
-      <div class="tl-item"><div class="tl-dot tl-now"></div><div><div class="tl-date">08–10 Apr 2026</div><div class="tl-desc now">🔴 Choose Sliding Venue NOW (Active)</div></div></div>
-      <div class="tl-item"><div class="tl-dot tl-up"></div><div><div class="tl-date">13–22 Apr 2026</div><div class="tl-desc">Sliding Process – Northern Region</div></div></div>
-      <div class="tl-item"><div class="tl-dot tl-up"></div><div><div class="tl-date">13–18 Apr 2026</div><div class="tl-desc">Sliding Process – All Other Regions</div></div></div>
-    </div>
-    <div class="info-card">
-      <h3>🏷 Category-wise Vacancy Breakdown</h3>
-      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">UR – Unreserved</span><span class="bar-mini-val">6,458</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:100%;background:linear-gradient(90deg,#6d28d9,#818cf8)"></div></div></div>
-      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">OBC</span><span class="bar-mini-val">3,832</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:59.3%;background:linear-gradient(90deg,#d97706,#fbbf24)"></div></div></div>
-      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">SC</span><span class="bar-mini-val">2,221</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:34.4%;background:linear-gradient(90deg,#e11d48,#fb7185)"></div></div></div>
-      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">EWS</span><span class="bar-mini-val">1,475</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:22.8%;background:linear-gradient(90deg,#0891b2,#22d3ee)"></div></div></div>
-      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">ST</span><span class="bar-mini-val">1,132</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:17.5%;background:linear-gradient(90deg,#059669,#34d399)"></div></div></div>
-      <div style="padding-top:14px;border-top:1.5px solid var(--border);margin-top:4px;display:flex;flex-wrap:wrap;gap:8px;">
-        <span class="chip ch-esm">ESM 354</span>
-        <span class="chip ch-ph">OH 162</span>
-        <span class="chip ch-ph">HH 155</span>
-        <span class="chip ch-ph">VH 154</span>
-        <span class="chip ch-ph">PwD 148</span>
-      </div>
-    </div>
-  </div>
 
   <!-- TESTBOOK TOPPERS -->
   <div class="toppers-banner">
@@ -617,6 +528,101 @@
       </a>
     </div>
   </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-eye">Staff Selection Commission of India</div>
+    <h2>Combined Graduate Level <span>Examination 2025</span></h2>
+    <p>FRTA declared on 08 April 2026 &nbsp;·&nbsp; 15,118 candidates provisionally allocated across 57 posts</p>
+  </div>
+
+
+  <!-- STATS -->
+  <div class="stats-grid">
+    <div class="stat-card c1">
+      <div class="stat-icon">📋</div>
+      <div class="stat-label">Total Vacancies</div>
+      <div class="stat-value">15,118</div>
+      <div class="stat-sub">Across 57 posts</div>
+    </div>
+    <div class="stat-card c2">
+      <div class="stat-icon">👥</div>
+      <div class="stat-label">Candidates Recommended</div>
+      <div class="stat-value">15,118</div>
+      <div class="stat-sub">100% vacancies filled</div>
+    </div>
+    <div class="stat-card c3">
+      <div class="stat-icon">✅</div>
+      <div class="stat-label">Candidates Parsed</div>
+      <div class="stat-value">15,110</div>
+      <div class="stat-sub">From List-1 &amp; List-2</div>
+    </div>
+    <div class="stat-card c4">
+      <div class="stat-icon">🎯</div>
+      <div class="stat-label">UR Cutoff (Sec I+II)</div>
+      <div class="stat-value">117</div>
+      <div class="stat-sub">Sec-I: 54 &nbsp;+&nbsp; Sec-II: 63</div>
+    </div>
+  </div>
+
+
+  <!-- CHARTS -->
+  <div class="charts-grid">
+    <div class="chart-box">
+      <div class="chart-title">📊 Top 10 Posts by Vacancy Count</div>
+      <div id="vacChart"></div>
+    </div>
+    <div class="chart-box">
+      <div class="chart-title">📈 UR Cut-off Comparison (Top Posts)</div>
+      <div id="cutChart"></div>
+    </div>
+  </div>
+
+
+  <!-- CUTOFF TABLE -->
+  <div class="section-box">
+    <div class="sec-head">
+      <div class="sec-icon si-b">📋</div>
+      Section I &amp; II Cut-off Marks
+    </div>
+    <div class="tab-row">
+      <button class="tab-btn on" onclick="showTab('s12',this)">Section I &amp; II</button>
+      <button class="tab-btn" onclick="showTab('ckt',this)">Section III (CKT)</button>
+      <button class="tab-btn" onclick="showTab('dest',this)">Section IV (DEST)</button>
+    </div>
+    <div class="tbl-wrap" id="ctContent"></div>
+  </div>
+
+
+  <!-- INFO GRID -->
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>📅 Key Timeline</h3>
+      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">18 Dec 2025</div><div class="tl-desc">Tier-I Result Declared</div></div></div>
+      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">18–19 Jan 2026</div><div class="tl-desc">Tier-II Examination (CBT)</div></div></div>
+      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">03 Mar 2026</div><div class="tl-desc">Sliding Mechanism Notice Issued</div></div></div>
+      <div class="tl-item"><div class="tl-dot tl-done"></div><div><div class="tl-date">08 Apr 2026</div><div class="tl-desc">FRTA Result Declared ✅</div></div></div>
+      <div class="tl-item"><div class="tl-dot tl-now"></div><div><div class="tl-date">08–10 Apr 2026</div><div class="tl-desc now">🔴 Choose Sliding Venue NOW (Active)</div></div></div>
+      <div class="tl-item"><div class="tl-dot tl-up"></div><div><div class="tl-date">13–22 Apr 2026</div><div class="tl-desc">Sliding Process – Northern Region</div></div></div>
+      <div class="tl-item"><div class="tl-dot tl-up"></div><div><div class="tl-date">13–18 Apr 2026</div><div class="tl-desc">Sliding Process – All Other Regions</div></div></div>
+    </div>
+    <div class="info-card">
+      <h3>🏷 Category-wise Vacancy Breakdown</h3>
+      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">UR – Unreserved</span><span class="bar-mini-val">6,458</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:100%;background:linear-gradient(90deg,#6d28d9,#818cf8)"></div></div></div>
+      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">OBC</span><span class="bar-mini-val">3,832</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:59.3%;background:linear-gradient(90deg,#d97706,#fbbf24)"></div></div></div>
+      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">SC</span><span class="bar-mini-val">2,221</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:34.4%;background:linear-gradient(90deg,#e11d48,#fb7185)"></div></div></div>
+      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">EWS</span><span class="bar-mini-val">1,475</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:22.8%;background:linear-gradient(90deg,#0891b2,#22d3ee)"></div></div></div>
+      <div class="bar-mini-row"><div class="bar-mini-top"><span class="bar-mini-name">ST</span><span class="bar-mini-val">1,132</span></div><div class="bar-mini-track"><div class="bar-mini-fill" style="width:17.5%;background:linear-gradient(90deg,#059669,#34d399)"></div></div></div>
+      <div style="padding-top:14px;border-top:1.5px solid var(--border);margin-top:4px;display:flex;flex-wrap:wrap;gap:8px;">
+        <span class="chip ch-esm">ESM 354</span>
+        <span class="chip ch-ph">OH 162</span>
+        <span class="chip ch-ph">HH 155</span>
+        <span class="chip ch-ph">VH 154</span>
+        <span class="chip ch-ph">PwD 148</span>
+      </div>
+    </div>
+  </div>
+
 
 </div>
 </main>
@@ -672,37 +678,68 @@ function searchCandidate(){
   rc.classList.add('show');
   if(!c){
     rc.innerHTML=`<div class="r-notfound">
-      <div class="nf-icon">❌</div>
-      <div class="nf-title">Not Found in FRTA Allocation</div>
-      <div class="nf-text">Roll <strong style="font-family:monospace">${roll}</strong> is not provisionally allocated.<br>You may not have qualified, or your result may be withheld / under legal proceedings.</div>
+      <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+        <div style="font-size:52px;line-height:1;">❌</div>
+        <div>
+          <div class="nf-title">Not Allocated in FRTA</div>
+          <div class="nf-text">Roll No <strong style="font-family:Space Mono,monospace;color:#e11d48">${roll}</strong> was not found in the provisional allocation list.</div>
+          <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;">
+            <span style="background:#fee2e2;color:#991b1b;padding:4px 12px;border-radius:6px;font-size:12px;font-weight:600;">Not Shortlisted</span>
+            <span style="background:#fef3c7;color:#92400e;padding:4px 12px;border-radius:6px;font-size:12px;font-weight:600;">Check roll number & try again</span>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:14px;padding:12px 15px;background:rgba(239,68,68,0.06);border:1px solid #fca5a5;border-radius:10px;font-size:13px;color:#7f1d1d;">
+        Possible reasons: Did not qualify Section I+II · Result withheld · 8 debarred candidates · Under legal proceedings
+      </div>
     </div>`;return;
   }
   const pp=POST_NAMES[c.post]||c.post;
   const cc=CAT_CHIP[c.category]||'ch-ur';
   const cs=CAT_CHIP[c.catsel]||'ch-ur';
-  const ln=c.list===1?'List-1 (SI Gr.II / JSO)':'List-2 (Other Posts)';
+  const ln=c.list===1?'List-1':'List-2';
+  const lnFull=c.list===1?'SI Gr.II / JSO':'Other Posts';
   rc.innerHTML=`<div class="r-eligible">
-    <div class="r-header">
-      <div style="font-size:36px">✅</div>
-      <div style="flex:1">
-        <div class="r-name">${c.name}</div>
-        <div class="r-roll">Roll No: ${c.roll}</div>
+
+    <!-- Top status strip -->
+    <div style="display:flex;align-items:center;gap:14px;margin-bottom:20px;padding-bottom:18px;border-bottom:2px solid #bbf7d0;flex-wrap:wrap;">
+      <div style="width:52px;height:52px;background:linear-gradient(135deg,#059669,#34d399);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0;box-shadow:0 4px 15px rgba(5,150,105,0.3);">✓</div>
+      <div style="flex:1;min-width:0;">
+        <div style="font-family:Rajdhani,sans-serif;font-size:26px;font-weight:700;color:#064e3b;line-height:1.1;">${c.name}</div>
+        <div style="font-size:12px;color:#6b7280;font-family:Space Mono,monospace;margin-top:3px;">Roll No: ${c.roll}</div>
       </div>
-      <span class="r-badge rb-ok">✓ Allocated in FRTA</span>
+      <span style="background:linear-gradient(135deg,#059669,#047857);color:#fff;padding:8px 18px;border-radius:22px;font-size:12px;font-weight:700;letter-spacing:1px;box-shadow:0 3px 12px rgba(5,150,105,0.35);white-space:nowrap;">✓ ALLOCATED IN FRTA</span>
     </div>
-    <div class="r-grid">
-      <div class="r-cell" style="grid-column:1/-1">
-        <div class="r-cell-label">Post Allocated</div>
-        <div class="r-cell-val">${pp}</div>
+
+    <!-- Post highlight box -->
+    <div style="background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:16px 18px;margin-bottom:16px;">
+      <div style="font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#1d4ed8;margin-bottom:6px;">Post Allocated</div>
+      <div style="font-size:17px;font-weight:700;color:#1e3a8a;line-height:1.3;">${pp}</div>
+      <div style="display:flex;gap:10px;margin-top:10px;flex-wrap:wrap;align-items:center;">
+        <span style="background:#1d4ed8;color:#fff;padding:4px 12px;border-radius:6px;font-size:12px;font-weight:700;font-family:Space Mono,monospace;">${c.post}</span>
+        <span style="background:#fff;border:1.5px solid #93c5fd;color:#1d4ed8;padding:4px 12px;border-radius:6px;font-size:12px;font-weight:700;font-family:Space Mono,monospace;">${c.rank}</span>
+        <span style="background:#fff;border:1.5px solid #93c5fd;color:#1d4ed8;padding:4px 12px;border-radius:6px;font-size:12px;font-weight:600;">${ln} · ${lnFull}</span>
       </div>
-      <div class="r-cell"><div class="r-cell-label">Post Code</div><div class="r-cell-val rv-blue">${c.post}</div></div>
-      <div class="r-cell"><div class="r-cell-label">Seniority Rank</div><div class="r-cell-val rv-blue">${c.rank}</div></div>
-      <div class="r-cell"><div class="r-cell-label">Result List</div><div class="r-cell-val rv-green">${ln}</div></div>
-      <div class="r-cell"><div class="r-cell-label">Base Category</div><div class="r-cell-val"><span class="chip ${cc}">${c.category}</span></div></div>
-      <div class="r-cell"><div class="r-cell-label">Selected Under</div><div class="r-cell-val"><span class="chip ${cs}">${c.catsel}</span></div></div>
-      <div class="r-cell"><div class="r-cell-label">Father's Name</div><div class="r-cell-val">${c.father}</div></div>
     </div>
-    <div class="sliding-alert">⚠️ <strong>Action Required:</strong> Visit <a href="https://ssc.gov.in" target="_blank">ssc.gov.in</a> and choose your Sliding Process venue from <strong>08–10 April 2026</strong>. Missing the sliding physically = treated as absent and excluded from final result.
+
+    <!-- Detail grid -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px;">
+      <div style="background:#f8fafc;border:1.5px solid #e2e8f0;border-radius:10px;padding:12px;">
+        <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#94a3b8;margin-bottom:5px;">Base Category</div>
+        <span class="chip ${cc}">${c.category}</span>
+      </div>
+      <div style="background:#f8fafc;border:1.5px solid #e2e8f0;border-radius:10px;padding:12px;">
+        <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#94a3b8;margin-bottom:5px;">Selected Under</div>
+        <span class="chip ${cs}">${c.catsel}</span>
+      </div>
+      <div style="background:#f8fafc;border:1.5px solid #e2e8f0;border-radius:10px;padding:12px;">
+        <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#94a3b8;margin-bottom:5px;">Father's Name</div>
+        <div style="font-size:13px;font-weight:600;color:#334155;">${c.father}</div>
+      </div>
+    </div>
+
+    <!-- Alert -->
+    <div class="sliding-alert">⚠️ <strong>Action Required:</strong> Visit <a href="https://ssc.gov.in" target="_blank">ssc.gov.in</a> and choose your Sliding Process venue from <strong>08–10 April 2026</strong>. Candidates who fail to attend physically will be treated as <strong>absent</strong> and excluded from final result.
     </div>
   </div>`;
 }
